@@ -1,12 +1,12 @@
 ---
-title: HTML linting
+title: HTML / Jinja2 linting
 theme: moon
 revealOptions:
     transition: 'none'
 css: slides.css
 ---
 
-## HTML linting
+## HTML & Jinja2 linting / autoformatting
 
 ---
 
@@ -300,7 +300,11 @@ If the template parses, exits with success, otherwise throws
 
 ---
 
-TO DO: Another possibility might be to try `curl` plus the Python `html-linter`
+## TO DO
+
+- Try `curl` plus the Python `html-linter`
+- Discuss the Wave plugin/extension for Chrome
+- Go back and check what other accessibility checking tools we used a year ago
 
 ---
 

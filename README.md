@@ -1,5 +1,6 @@
-# HTML linting
+# HTML / Jinja2 linting / autoformatting
 
-Short presentation on HTML linting, particularly interested in Jinja2 templates.
+Short presentatio, more of a conversation-starter on HTML linting, particularly
+interested in Jinja2 templates.
 
-View at <https://ian-barnes.github.io/html-lint/>.
+View at <https://ian-barnes.github.io/jinja-linting/>.
