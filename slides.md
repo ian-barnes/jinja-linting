@@ -240,11 +240,10 @@ TO DO:
 
 ## 3. VSCode "Better Jinja" extension
 
-Provides code highlighting / colouring but no formatting
+- Provides code highlighting / colouring but no auto-formatting
+- Must be something similar for Vim...?
 
-(Include a screenshot)
-
-Must be similar for Vim...?
+![VSCode better jinja](vscode-better-jinja.png)
 
 ---
 
@@ -257,11 +256,9 @@ ian@ian-laptop:~/web-findings$ pip install jinjaninja
 ...
 ian@ian-laptop:~/web-findings$ jinja-ninja app/web/templates/report-diffs.html.j2
 app/web/templates/report-diffs.html.j2:7:86 Block closures should also have names `{% endblock %}`
-app/web/templates/report-diffs.html.j2:11:0 Block closures should also have names `{% endblock %}`
-app/web/templates/report-diffs.html.j2:15:0 Block closures should also have names `{% endblock %}`
-app/web/templates/report-diffs.html.j2:19:0 Block closures should also have names `{% endblock %}`
-app/web/templates/report-diffs.html.j2:56:0 Block closures should also have names `{% endblock %}`
+... (repeated several times)
 ```
+
 
 A bit fussy...
 
@@ -296,6 +293,7 @@ If the template parses, exits with success, otherwise throws
 - Super-simple
 - Should be easy to incorporate into our test framework
 - BUT... only checks template correctness
+- fails on the `{% assets %}` element (Flask extension to standard Jinja2)
 - potentially worthwhile, but not really one of our goals here
 
 ---
